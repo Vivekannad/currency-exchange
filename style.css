@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.things{
+    padding: 1.7rem 0;
+    width: 30%;    
+    gap: 25px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid silver;
+    border-radius: 3px;
+}
+.form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.drop-downs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input,select,.convert-btn{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    outline: none;
+    border: none;
+}
+.menu{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.flag{
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+}
+.result-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.result-div .result,.final-result{
+    /* font-weight: 600; */
+}

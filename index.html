@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="things">
+        <h1 class="heading">Currency Converter</h1>
+        <form class="form">
+            <div class="drop-downs">
+                <div class="from">
+                    <h2 class="small-heading">From</h2>
+                    <div class="menu">
+                        <img src="" alt="" class="flag">
+                        <select id="from-select">
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <h2 class="small-heading">To</h2>
+                    <div class="menu">
+                        <img src="" alt="" class="flag">
+                        <select id="to-select">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="input-field">
+                <input type="tel" id="amount" placeholder="Amount">
+            </div>
+            <button class="convert-btn" id="convert-btn">Convert</button>
+            <div class="result-div">
+            <h3 class="small-heading result">R</h3>
+            <p class="final-result">546$</p>
+            </div>
+        </form>
+        </div>
+    </div>
+    <script src="./country.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
